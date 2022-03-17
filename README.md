@@ -1,5 +1,5 @@
 # Automate the Boring Stuff with Python by Al Sweigart
-Project Page 240: Renaming Files with Dates
+## Project Page 240: Renaming Files with Dates
 
 - Generate a large number of files with american style dates as their names (mm-dd-yyyy).
 - All files have the original date saved in them so you can check if you code worked well after.
@@ -33,20 +33,23 @@ DEFAULT: gendates (save in current work directory) "us_date_" 100
 - [x] Generating valid american dates with a function
 - [x] Compressing all date files in the path to a .zip archive
 - [x] Deleting the original files so we dont get duplicates
-- [] Organizing `main()` in different functions
+- [ ] Organizing `main()` in different functions
 
 ### dateconversor.py
 - [x] Regex to indentify american style dates
 - [x] Getting all file names inside the path
 - [x] Indentify the files with valid american style dates
 - [x] Converting the dates in the filenames to european style
-- [] try/except in `re.sub()` and `.group()`
+- [ ] try/except in `re.sub()` and `.group()`
 - [x] Use `shutil.move()` to change the name of the files
-- [] Organize code in functions
+- [ ] Organize code in functions
 - [x] Get user inputed path
-- [] Check if path is valid
+- [ ] Check if path is valid
 
 ## Support
 Made based on the book ['Automate the Boring Stuff with Python' by Al Sweigart](https://automatetheboringstuff.com/).
+
 Consider [donating to the writer of the book](https://www.patreon.com/AlSweigart).
+
+
 And consider following me in my [youtube channel about programming](https://www.youtube.com/channel/UCOzf_llnNj7zoyst26eb_sQ)
